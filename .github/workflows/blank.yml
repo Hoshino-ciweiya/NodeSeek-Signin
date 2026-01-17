@@ -2,7 +2,7 @@ name: nodeseek鸡腿签到
 
 on:
   push:
-分支:
+    branches:
       - main
   schedule:
     - cron: '13 17 * * *'  # 北京时间 00:00 (UTC+8)，对应UTC时间 16:00
